@@ -24,8 +24,11 @@
     <?php echo '<p>PHP says "Hello World!"</p>'; ?>
 
     <?php echo '<p>Can you display a sentence with \' and "?</p>'; ?>
-<a href="></a>
-    <img src="<?php echo 'https://placehold.co/300x400' ?>">
+
+
+<a href="<?php echo $imageUrl; ?>">
+<img src="<?php echo $imageUrl; ?>" alt="Its a just a placeholder">
+</a>
 
 
 
